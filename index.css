@@ -43,6 +43,10 @@ line-height: 1.4;
 */
 img {
   border-radius: 10px;
+  transition: 1s;
+}
+img:hover {
+  transition: 1.5s;
 }
 
 .content-row {
@@ -78,6 +82,8 @@ img {
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
   background: white;
   color: pink;
+  transform: scale(1.1);
+  transition: 1s;
 }
 
 /*======= Create a selector for the about section to have the following styles:
@@ -152,4 +158,12 @@ footer .footer-content .copyright {
   padding: 20px 0;
    /*======= center the text here */
    text-align: center;
+}
+
+.section {
+  transition: 1s;
+}
+.section:hover {
+  transform: scale(1.1);
+  transition: 1s;
 }
